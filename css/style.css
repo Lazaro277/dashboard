@@ -1,0 +1,70 @@
+body,
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.bg-white-50 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-primary {
+  background-color: #396eff !important;
+}
+.bg-light {
+  background-color: #eaf6fe !important;
+}
+.text-primary {
+  color: #396eff !important;
+}
+.text-success {
+  color: #00d153 !important;
+}
+.text-warning {
+  color: #ffe605 !important;
+}
+.text-danger {
+  color: #d10000 !important;
+}
+.btn-success {
+  background-color: #ebebeb !important;
+  border-color: #ebebeb !important;
+  color: black !important;
+}
+.btn-success:hover {
+  background-color: #00d153 !important;
+  border-color: #00d153 !important;
+  color: white !important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .table {
+        --bs-table-hover-bg: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .rc-mt {
+        margin-top: -1.25rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
